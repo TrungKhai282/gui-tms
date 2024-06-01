@@ -1,0 +1,29 @@
+.sidebar {
+  height: 100%;
+  padding-top: 8px;
+  background-color: black !important;
+
+  &:global(.ant-layout-sider) {
+    ul {
+      background: none;
+      margin-bottom: 24px;
+    }
+  }
+
+  .selectAnt {
+    &:global(.ant-menu-item) {
+      background-color: black !important;
+    }
+    &:global(.ant-menu-item-selected) {
+      background-color: #ffffff23 !important; /* Change to your desired color */
+      color: #1677ff;
+    }
+  }
+
+  .title {
+    .text {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    padding: 0px 24px;
+  }
+}

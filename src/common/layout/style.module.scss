@@ -1,0 +1,15 @@
+.mainLayout {
+  height: 100vh !important;
+  display: flex;
+
+  .sider {
+    height: 100%;
+
+    .logo {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
